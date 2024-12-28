@@ -1,6 +1,6 @@
 {
-  "homepage":"https://guilhermeweb3225.github.io/portifolio_GP",
-  "name": "portifolio-gp",
+  "homepage": "https://guilhermeweb3225.github.io/portifolio-GP",
+  "name": "portifolio_gp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
